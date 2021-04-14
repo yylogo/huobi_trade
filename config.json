@@ -1,0 +1,28 @@
+{
+    "SERVER_ID": "money flow",
+    "MARKETS": [
+        {
+            "strategy_file": ["quick"],
+
+            "platform": "huobi_future",
+            "account": "",
+            "host": "https://api.hbdm.vn",
+            "wss": "wss://api.hbdm.vn",
+            "access_key": "",
+            "secret_key": "",
+
+            "level": 10,
+            "symbol": "BTC",
+            "contract_type": "quarter"
+        }
+    ],
+    "LOG": {
+        "console": true,
+        "level": "INFO",
+        "path": "/data/logs/servers/swap_maker_strategy",
+        "name": "swap_maker_strategy.log",
+        "clear": true,
+        "backup_count": 5
+    }
+}
+
